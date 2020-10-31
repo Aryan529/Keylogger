@@ -1,4 +1,4 @@
-# Keylogger
+# Keylogger :key:
 Here I have made Keylogger in Python which can not just monitor what the individual is composing and furthermore take screen captures parallelly.
 # How to use?
 1. First of all you need to install all the mentioned python libraries in your device (Here i am assuming that latest Python version is installed in your device).
@@ -29,10 +29,10 @@ pip install os
 <br />
 This Keylogger will make a new Directory on the Desktop named "Keylogger" where all the Screenshots and log file will be stored.
 
-# How to Stop?
+# How to Stop? :red_circle:
 In order to stop this Keylogger, you have to stop the python script. 
 
 
-# Disclaimer
+# Disclaimer:warning:
 This undertaking is just for Educational Purposes and the abuse of the data in this venture can result in criminal allegations brought against the people being referred to.<br/> 
 I am in no way responsible for the misuse of the information.
